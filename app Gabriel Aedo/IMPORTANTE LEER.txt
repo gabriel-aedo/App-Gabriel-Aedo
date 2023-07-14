@@ -1,1 +1,3 @@
 El ejecutable está en la carpeta "dist"
+
+Se añadirá un usuario a la BBDD, para que pueda hacer uso de la aplicación. El usuario es 123456789 y la clave es cyury123.
