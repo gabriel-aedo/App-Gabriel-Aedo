@@ -27,4 +27,18 @@ class MongoConn:
 
 if __name__ == "__main__":
     conexion = Mongoconn()
-    conexion.insertar_data({})
+    conexion.insertar_data({
+        "_id": "123456789",
+        "nombre": "super_usuario",
+        "clave": "cyury123",
+        "sexo": "Masculino",
+        "direccion": "Avda Siempre Viva 012",
+        "telefono": "912345678",
+        "cargo": "Personal RR.HH",
+        "fecha_ingreso_a_compania": "21/02/2011",
+        "area": "Logistica",
+        "depto": "Almacenamiento",
+        "nombre_contacto_emergencia": "Marta Micaela Santana Santander",
+        "tipo_de_relacion": "Conyuge",
+        "telefono_contacto": "987654321",
+        "cargas_familiares": "N/A"})
