@@ -1,5 +1,4 @@
 from pymongo import MongoClient
-import bcrypt
 
 class MongoConn:
     def __init__(self):
