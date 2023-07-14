@@ -1,3 +1,0 @@
-El ejecutable está en la carpeta "dist"
-
-Antes de usar aplicacion, se debe ejecutar primero el archivo "mongoconn.py", ya que se insertará un usuario con cargo "Personal RR.HH", que es quien puede ingresar a mas usuarios al sistema. Se recomienda añadir un usuario para cada cargo (Trabajador, Jefe RR.HH, Personal RR.HH) mediante el formulario, y así se podrán probar las funciones.
