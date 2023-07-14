@@ -1,21 +1,3 @@
 El ejecutable está en la carpeta "dist"
 
 Ya que el personal de RR.HH es quien ingresa a los usuarios a la BBDD, dejo un usuario para insertar en la base de datos (por consola):
-
-db.trabajadores.insertOne({
-  _id: '123456789',
-  nombre: 'super_usuario',
-  clave: "cyury123",
-  sexo: 'Masculino',
-  direccion: 'Avda Siempre Viva 012',
-  telefono: '912345678',
-  cargo: 'Personal RR.HH',
-  fecha_ingreso_a_compania: 2019,
-  area: 'Logistica',
-  depto: 'Almacenamiento',
-  nombre_contacto_emergencia: 'Marta Micaela Santana Santander',
-  tipo_de_relacion: 'Conyuge',
-  telefono_contacto: '987654321',
-  cargas_familiares: 'N/A'
-})
-
