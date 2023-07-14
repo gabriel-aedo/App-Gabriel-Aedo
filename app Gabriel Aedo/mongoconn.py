@@ -1,4 +1,5 @@
 from pymongo import MongoClient
+import bcrypt
 
 class MongoConn:
     def __init__(self):
@@ -23,3 +24,7 @@ class MongoConn:
     
     def encontrar_data_aggregate(self, doc: dict):
         return self.coleccion.aggregate(doc)
+
+if __name__ == "__main__":
+    conexion = Mongoconn()
+    conexion.insertar_data({})
